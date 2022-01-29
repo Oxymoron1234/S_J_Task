@@ -1,0 +1,13 @@
+ [
+     {   "id": 1,
+         "Defrost": "OFF",
+         "Error" : "Interface module error",
+         "VRF":[1,2,3]
+     },
+     {
+        "id": 2,
+        "Defrost": "OFF",
+        "Error" : "Interface module error",
+        "VRF":[1,2]
+    }
+ ]

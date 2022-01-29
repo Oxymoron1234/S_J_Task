@@ -1,0 +1,196 @@
+[
+   [
+      {
+         "floor": "2nd Floor",
+         "fid": 2,
+         "Room": [
+            {
+               "id": 1,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 2,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 3,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 4,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            }
+         ]
+      },
+      {
+         "floor": "4th Floor",
+         "fid": 4,
+         "Room": [
+            {
+               "id": 1,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 2,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 3,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            }
+         ]
+      },
+      {
+         "floor": "8th Floor",
+         "fid": 8,
+         "Room": [
+            {
+               "id": 1,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 2,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 3,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 4,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            }
+         ]
+      }
+   ],
+   [
+      {
+         "floor": "1st Floor",
+         "fid": 1,
+         "Room": [
+            {
+               "id": 1,
+               "SET Temp 1": 20,
+               "Supply Air temp": 20,
+               "Area temp": 21.5,
+               "Area Humidity": 80
+            },
+            {
+               "id": 2,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 3,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 4,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            }
+         ]
+      },
+      {
+         "floor": "2nd Floor",
+         "fid": 2,
+         "Room": [
+            {
+               "id": 1,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 2,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 3,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            }
+         ]
+      },
+      {
+         "floor": "8th Floor",
+         "fid": 8,
+         "Room": [
+            {
+               "id": 1,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 2,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 3,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            },
+            {
+               "id": 4,
+               "SET Temp 1": 20.6,
+               "Supply Air temp": 20.8,
+               "Area temp": 21.2,
+               "Area Humidity": 60
+            }
+         ]
+      }
+   ]
+]
