@@ -1,8 +1,8 @@
 [
     {
-        "building": 1,
         "id": 1,
-        "about":[
+        "building": 1,
+        "detail":[
             {
                 "floor": "2nd Floor",
                 "fid": 2,
@@ -101,9 +101,9 @@
         ]
     },
     {
-        "building": 2,
         "id": 2,
-        "about": [
+        "building": 2,
+        "detail": [
             {
                 "floor": "1st Floor",
                 "fid": 1,
