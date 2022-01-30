@@ -1,12 +1,19 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 import "./Navbar.css"
+import JsonData from "../../data/indorPoss.json"
 const Navbar = () => {
+  const [noOfBuilding, setNoOfBuilding] = useState(0);
   const captureId = (e)=>{
     if(e.target.value === 0){
     }else{
       console.log(e.target.value);
     }
   }
+  useEffect(() => {
+     const length = JsonData.length;
+    console.log(length);
+  }, []);
+  
   return <>
     <input type="checkbox" id="check" />
     <nav>

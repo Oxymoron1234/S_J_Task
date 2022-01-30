@@ -197,3 +197,13 @@ section{
    z-index: -1;
    filter: brightness(30%);
 }
+.icon, #Building{
+   display: flex;
+    align-items: center; 
+   justify-content: space-around;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+    font-weight: 200;
+    background: radial-gradient(#f7c8ea, #e5d1ff);
+}

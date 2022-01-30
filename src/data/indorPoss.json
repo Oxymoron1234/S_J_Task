@@ -1,39 +1,41 @@
 [
     {
-        "id": 1,
-        "building": 1,
-        "detail":[
+        "B1": [
             {
                 "floor": "2nd Floor",
                 "fid": 2,
                 "Room": [
                     {
                         "id": 1,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 2,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 3,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
                     },
                     {
                         "id": 4,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     }
                 ]
             },
@@ -43,24 +45,27 @@
                 "Room": [
                     {
                         "id": 1,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 2,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 3,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     }
                 ]
             },
@@ -70,71 +75,77 @@
                 "Room": [
                     {
                         "id": 1,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
                     },
                     {
                         "id": 2,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 3,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 4,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
                     }
                 ]
             }
         ]
     },
     {
-        "id": 2,
-        "building": 2,
-        "detail": [
+        "B2": [
             {
                 "floor": "1st Floor",
                 "fid": 1,
                 "Room": [
                     {
                         "id": 1,
-                        "SET Temp 1": 20,
-                        "Supply Air temp": 20,
-                        "Area temp": 21.5,
-                        "Area Humidity": 80
+                        "SetTemp": 20,
+                        "SupplyAirtemp": 20,
+                        "Areatemp": 21.5,
+                        "AreaHumidity": 80,
+                        "status":true
                     },
                     {
                         "id": 2,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 3,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
                     },
                     {
                         "id": 4,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     }
                 ]
             },
@@ -144,24 +155,27 @@
                 "Room": [
                     {
                         "id": 1,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
                     },
                     {
                         "id": 2,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 3,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     }
                 ]
             },
@@ -171,31 +185,35 @@
                 "Room": [
                     {
                         "id": 1,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 2,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
                     },
                     {
                         "id": 3,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     },
                     {
                         "id": 4,
-                        "SET Temp 1": 20.6,
-                        "Supply Air temp": 20.8,
-                        "Area temp": 21.2,
-                        "Area Humidity": 60
+                        "SetTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
                     }
                 ]
             }
