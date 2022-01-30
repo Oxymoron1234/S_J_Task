@@ -16,10 +16,10 @@ const Navbar = ({setBuildingNumber}) => {
       setBuildingNumber(e.target.value-1)
     }
   }
-  const searchFunction =(e)=>{
+  const searchFunction =()=>{
       if(searchWord.length >0 ){
         window.find(searchWord)
-        searchWord = '';
+        
       }
   }
     useEffect(() => {
@@ -46,7 +46,7 @@ const Navbar = ({setBuildingNumber}) => {
       </div>
       <div className="search_box">
         <span className="fa fa-search" onClick={ searchFunction } ></span>
-        <input type="search" placeholder="Search" value={searchWord} onChange={ e => {setSearchWord(e.target.value)} } />
+        <input type="search" placeholder="Search" value={searchWord} onChange={ e => {if(e.keyPress === 'Enter'){ return searchFunction } setSearchWord(e.target.value)} } />
       </div>
       <ol>
         <li><a href="/"> <BsBuilding/> </a></li>
