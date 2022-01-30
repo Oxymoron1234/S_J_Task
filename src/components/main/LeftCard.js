@@ -4,18 +4,21 @@ import {Link} from 'react-scroll'
 const LeftCard = ({floor , fid}) => {
   const[click,setClick] = useState("");
   const handleClick = (e) => {
-    // const select = document.getElementById(fid);
-    let x = fid.toString();
-    //  select.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    //  setClick(fid);
-    setClick(`"section${x}"`)
-    console.log(click);
-          
+    setClick(`"section${fid}"`)
+    if(fid<=3){
+       window.scrollTo({top:0, behavior: 'smooth'});
+    }else if( fid>3 && fid<=5){
+      window.scrollTo({top:200, behavior: 'smooth'});
+    }else{
+      window.scrollTo({top:document.body.scrollHeight , behavior: 'smooth'});
+    }
+    
+
   }
   return <>
        <div id='left-panel'>
             {   
-                <Link className='left-floor' to={click} onClick={handleClick} > <li> {floor}</li></Link>
+                <button className='left-floor' value={click} onClick={handleClick} > <li> {floor}</li></button>
             }
         </div>
   </>;

@@ -8,17 +8,18 @@ import Loader from '../Loader.js'
 const MainBody = ({buildingNumber}) => {
     const [data, setData] = useState([])
     const getData= () => {
-        setData(JsonData[0].B1)
+        setData(JsonData[buildingNumber].B1)
+        
     }
     useEffect( () => {
         getData();
-       if(data== []) return <Loader/>  
+       if(data == []) return <Loader/>  
     })
     return <>
         <div className="main-body">
             <div className="leftChild"> 
                          {data.map((e,i)=>{
-                         return <LeftCard key={i} floor={e.floor} fid={e.fid} />
+                         return <LeftCard key={i} floor={e.floor} fid={e.fid} buildingNumber={buildingNumber} />
                          })} 
               </div>
             <div className="middleChild"> {data.map((e,i)=>{

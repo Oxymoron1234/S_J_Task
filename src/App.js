@@ -5,7 +5,7 @@ import React,{useState, useEffect} from 'react'
 function App() {
   const [buildingNumber, setBuildingNumber] = useState(1);
   useEffect(() => {
-    console.log(buildingNumber);
+    // console.log(buildingNumber);
   }, [buildingNumber]);
   
   return (

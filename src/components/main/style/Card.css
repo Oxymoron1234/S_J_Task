@@ -97,6 +97,10 @@
   background-color:#e6e6fd;
   border-radius: 50%;
 }
+.editButton{
+  cursor: pointer;
+  
+}
 .bedlast{
     margin: 1rem;
     padding: 5px;
