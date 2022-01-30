@@ -65,3 +65,11 @@
     justify-content:end;
     margin-right: 0.6rem;
 }
+.editAndOff{
+    display: flex;
+    flex-direction: row;
+}
+.threeDot{
+    margin: auto;
+    cursor: pointer;
+}

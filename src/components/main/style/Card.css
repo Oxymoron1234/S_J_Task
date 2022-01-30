@@ -8,7 +8,7 @@
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
       Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  
+      background-color:#D6E5FA;
   }
   
   .main-container {
@@ -73,8 +73,17 @@
     margin-left: 0.8rem;
     padding-right: 1.5rem;
     padding-left: 0rem;
-    border-right: 1px solid black;
-    
+    border-right: 1px solid black;  
+}
+.pen{
+  margin-left:1.3rem;
+  cursor: pointer;
+  font: 1em sans-serif;
+  font-size: 1.3rem;
+  padding: 0.1rem;
+  border: 0.2px groove gray;
+  border-radius: 50%;
+  
 }
 .bed1{  
   display: flex;
@@ -99,7 +108,7 @@
 }
 .editButton{
   cursor: pointer;
-  
+
 }
 .bedlast{
     margin: 1rem;
@@ -113,6 +122,17 @@
   @media (max-width: 1600px) {
     .cards {
       justify-content: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .main-container{
+      font-size: 0.6rem;
+      display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 100;
+  justify-content: space-between;
+  
     }
   }
   

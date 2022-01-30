@@ -7,7 +7,7 @@
                 "Room": [
                     {
                         "id": 1,
-                        "SetTemp": 20.6,
+                        "SetTemp": 20,
                         "SupplyAirtemp": 20.8,
                         "Areatemp": 21.2,
                         "AreaHumidity": 60,

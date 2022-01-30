@@ -8,13 +8,17 @@ import Loader from '../Loader.js'
 const MainBody = ({buildingNumber}) => {
     const [data, setData] = useState([])
     const getData= () => {
-        setData(JsonData[buildingNumber].B1)
+        
         
     }
     useEffect( () => {
-        getData();
-       if(data == []) return <Loader/>  
-    })
+        for(let i = 0; i < JsonData[0].length; i++){
+            setData([...data,JsonData[i].B1]) 
+        }
+    },[data])
+    useEffect(() => {
+        setData(JsonData[buildingNumber].B1)
+    },[buildingNumber])
     return <>
         <div className="main-body">
             <div className="leftChild"> 

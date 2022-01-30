@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import "./style/Card.css"
 import Switch from "react-switch";
 import { MdWebStories} from "react-icons/md";
-import { BsThreeDotsVertical } from "react-icons/bs";
+import { BsThreeDotsVertical , BsPencil} from "react-icons/bs";
+
 const Card = (props) => {
     const [checked, setChecked] = useState(props.status);
     const handleChange = nextChecked => {
@@ -21,7 +22,7 @@ const Card = (props) => {
         <div >
             <div className={ (checked) ? 'room': 'darkroom'}>
                 <div className='bed1' > <div className="bedImg" > <MdWebStories/> </div> <div> CardiacOT 1</div> </div>
-                <div className='bed'><div>Set Temp</div> <div> {props.SetTemp} </div></div>
+                <div className='bed '><div>Set Temp</div> <div> {props.SetTemp}<BsPencil className="pen" /> </div>  </div> 
                 <div className='bed'><div>Supply Air Temp</div><div>{props.SupplyAirtemp}</div></div>
                 <div className='bed'><div>Area Temp</div><div>{props.Areatemp}</div></div>
                 <div className='bed'><div>Area Humidity</div><div>{props.areaHumidity}%</div></div>

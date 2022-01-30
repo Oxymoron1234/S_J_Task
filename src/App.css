@@ -24,7 +24,7 @@
   width: 20%;
   background-color: #D6E5FA;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1078px) {
   .leftChild{
        width:20%;
   }
@@ -35,7 +35,7 @@
     display:none;
   }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   .leftChild{
        display:none;
   }

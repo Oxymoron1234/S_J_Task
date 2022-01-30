@@ -15,22 +15,45 @@ nav{
    padding: 15px 30px;
    
 }
-nav .icon{
-   font-size: 35px;
-   font-weight: 800;
-   color: #fff;
-   cursor: pointer;
+nav .icon , #Building {
+   width: 8rem;
+    height: 3rem;
+    color: #fff;
+    border-radius: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none; 
+    
+}
+.btn{
+   display: flex;
+   flex-direction: column;
+}
+.icon:hover {
+   background: rgb(247,150,192);
+   background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
 }
 nav ol{
    display: flex;
    list-style: none;
-   margin: auto 0;
+   margin-left: 45rem;
+   flex-direction: row-reverse;
+   
+
 }
 nav ol li{
    margin: 0 2px;
 }
 nav ol li a{
-   color: #fff;
+   color: rgb(26, 26, 26);
    font-size: 20px;
    text-decoration: none;
    text-transform: capitalize;
@@ -38,14 +61,15 @@ nav ol li a{
    padding: 5px 10px;
    border: 1px solid black;
    border-radius: 50px;
+   
 }
 nav ol li:hover a{
    background: #fff;
    color: #030405;
 }
 nav .search_box{
-   display: flex;
-   margin: auto ;
+   display: inline-flex;
+   margin-left: 4rem;
    padding:2px;
    height: 35px;
    line-height: 35px;
@@ -96,6 +120,7 @@ nav .bar{
    position: relative;
    margin: auto;
    display: none;
+   
 }
 nav .bar span{
    position: absolute;
@@ -106,19 +131,27 @@ input[type="checkbox"]{
    -webkit-appearance: none;
    display: none;
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 600px){
    nav{
       display: block;
       padding: 0;
    }
+   .icon:hover {
+      background: transparent; 
+   }
+   nav .search_box{
+      margin-top: 2rem;
+   }
+   
    nav .icon{
       display: inline-block;
       padding: 15px 30px;
    }
    nav .search_box{
       width: 100%;
-      display: inline-flex;
+      display: flex;
       justify-content: center;
+     
       margin-bottom: 15px;
    }
    nav .search_box input{
@@ -131,9 +164,11 @@ input[type="checkbox"]{
       height: 0;
       visibility: hidden;
       transition: 0.3s;
+      
    }
    nav ol li{
       text-align: center;
+      
       transition: 0.3s 0.1s all;
       opacity: 0;
    }
@@ -142,6 +177,7 @@ input[type="checkbox"]{
       font-size: 28px;
       padding: 25px;
       display: block;
+      
    }
    nav ol li:nth-child(1){
       transform: translateX(-150px);
@@ -198,13 +234,15 @@ section{
    z-index: -1;
    filter: brightness(30%);
 }
-.icon, #Building{
+ #Building{
    display: flex;
     align-items: center; 
    justify-content: space-around;
     border: none;
-    border-radius: 10px;
     transition: all 0.2s;
+    color: black;
     font-weight: 200;
-    background: radial-gradient(#f7c8ea, #e5d1ff);
+    padding-left: 0.2rem;
+    text-align: center;
+ 
 }

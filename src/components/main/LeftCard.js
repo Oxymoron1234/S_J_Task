@@ -18,7 +18,7 @@ const LeftCard = ({floor , fid}) => {
   return <>
        <div id='left-panel'>
             {   
-                <button className='left-floor' value={click} onClick={handleClick} > <li> {floor}</li></button>
+                <button className=' custom-btn btnEffect' value={click} onClick={handleClick} > <span> <li>{floor}</li></span></button>
             }
         </div>
   </>;
