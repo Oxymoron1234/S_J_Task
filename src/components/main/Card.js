@@ -6,6 +6,7 @@ import { BsThreeDotsVertical , BsPencil} from "react-icons/bs";
 
 const Card = (props) => {
     const [checked, setChecked] = useState(props.status);
+    const [data, setData] = useState([]);
     const handleChange = nextChecked => {
          setChecked(nextChecked);
          console.log(!(checked));
@@ -15,7 +16,7 @@ const Card = (props) => {
 
     }
     useEffect(() => {
-
+        
     }, [checked]);
 
     return <div className="main-container" id={`"section${props.fid}"`}>

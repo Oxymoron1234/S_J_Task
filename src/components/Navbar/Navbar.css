@@ -70,17 +70,17 @@ nav ol li:hover a{
 nav .search_box{
    display: inline-flex;
    margin-left: 4rem;
-   padding:2px;
-   height: 35px;
+   padding:4px;
+   height: 40px;
    line-height: 35px;
-   border: 1px solid black;
+   border: 0.1px solid rgb(161, 161, 161);
    border-radius: 50px;
-   background-color: #fff;;
+   background: #D6E5FA;
 }
 nav .search_box input{
    border: none ;
    outline: none;
-   background: #fff;
+   background: #D6E5FA;
    height: 100%;
    padding: 0 10px;
    font-size: 14px;
@@ -90,7 +90,7 @@ nav .search_box input{
 nav .search_box span{
    color: #b1e6ff;
    font-size: 20px;
-   background: #fff;
+   background: #D6E5FA;
    height: 100%;
    padding: 8px;
    position: relative;

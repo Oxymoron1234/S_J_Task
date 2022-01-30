@@ -4,6 +4,7 @@ import Room from "./Room.js"
 import LeftCard from './LeftCard';
 import RightCard from './RightCard';
 import Loader from '../Loader.js'
+import Card from "./Card.js"
 
 const MainBody = ({buildingNumber}) => {
     const [data, setData] = useState([])
@@ -26,8 +27,12 @@ const MainBody = ({buildingNumber}) => {
                          return <LeftCard key={i} floor={e.floor} fid={e.fid} buildingNumber={buildingNumber} />
                          })} 
               </div>
-            <div className="middleChild"> {data.map((e,i)=>{
-                         return <Room key={i} floor={e.floor} fid={e.fid} buildingNumber={buildingNumber} />
+            <div className="middleChild"> {data.map((e,id)=>{
+                         return (<>
+                         <Room key={id} 
+                         floor={e.floor} 
+                         fid={e.fid} 
+                         buildingNumber={buildingNumber} /></>)
                          })} 
             </div>
             <div className="rightChild"> <RightCard /> </div>
