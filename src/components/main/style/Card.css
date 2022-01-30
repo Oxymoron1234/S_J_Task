@@ -13,11 +13,11 @@
   
   .main-container {
     padding: 0.8rem;
-    background-color: rgb(185, 216, 241);
+    background-color: #D6E5FA;
   }
   
   /* CARDS */
-  
+
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -36,13 +36,7 @@
     
    
   }
-  
-  .room:hover {
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-    transform: scale(1.01);
-  }
-
-  
+   
 .room{
     display: flex;
     align-items: center; 
@@ -52,7 +46,12 @@
     transition: all 0.2s;
     font-weight: 200;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-    background: radial-gradient(#f588d8, #c0a3e5);
+    /* background: radial-gradient(#f588d8, #BAABDA); */
+    background-color: #f8f0fd;
+}
+.room:hover, .darkroom:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
 }
 .darkroom{
   display: flex;
@@ -76,6 +75,27 @@
     padding-left: 0rem;
     border-right: 1px solid black;
     
+}
+.bed1{  
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;
+    margin-left: 0.8rem;
+    padding-right: 1.5rem;
+    padding-left: 0rem;
+    border-right: 1px solid black;
+    
+}
+.bedImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.4rem;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  background-color:#e6e6fd;
+  border-radius: 50%;
 }
 .bedlast{
     margin: 1rem;

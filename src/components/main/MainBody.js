@@ -5,7 +5,7 @@ import LeftCard from './LeftCard';
 import RightCard from './RightCard';
 import Loader from '../Loader.js'
 
-const MainBody = () => {
+const MainBody = ({buildingNumber}) => {
     const [data, setData] = useState([])
     const getData= () => {
         setData(JsonData[0].B1)
@@ -18,11 +18,11 @@ const MainBody = () => {
         <div className="main-body">
             <div className="leftChild"> 
                          {data.map((e,i)=>{
-                         return <LeftCard key={i} floor={e.floor} />
+                         return <LeftCard key={i} floor={e.floor} fid={e.fid} />
                          })} 
               </div>
             <div className="middleChild"> {data.map((e,i)=>{
-                         return <Room key={i} floor={e.floor} />
+                         return <Room key={i} floor={e.floor} fid={e.fid} buildingNumber={buildingNumber} />
                          })} 
             </div>
             <div className="rightChild"> <RightCard /> </div>

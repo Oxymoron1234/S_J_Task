@@ -1,18 +1,22 @@
 import React,{useState, useEffect} from 'react';
 import "./Navbar.css"
 import JsonData from "../../data/indorPoss.json"
-const Navbar = () => {
+import Loader from "../Loader.js"
+const Navbar = ({setBuildingNumber}) => {
   const [noOfBuilding, setNoOfBuilding] = useState(0);
   const captureId = (e)=>{
-    if(e.target.value === 0){
+    if(e.target.value == 0){
+      setBuildingNumber(e.target.value)
+      setNoOfBuilding(e.target.value)
     }else{
-      console.log(e.target.value);
+      //console.log(e.target.value);
+      setNoOfBuilding(e.target.value-1)
+      setBuildingNumber(e.target.value-1)
     }
   }
   useEffect(() => {
-     const length = JsonData.length;
-    console.log(length);
-  }, []);
+     if (!noOfBuilding) return <Loader/>
+  },[]);
   
   return <>
     <input type="checkbox" id="check" />
@@ -20,8 +24,11 @@ const Navbar = () => {
       <div className="icon">
       <select id="Building" onChange={captureId}>
       <option value="0">Select Building</option>
-        <option value="1">Building 1</option>
-        <option value="2">Building 2</option>
+        {
+          JsonData.map((e,id)=>(
+            <option key={id} value={id+1}>{e.name}</option>
+          ))
+        }
       </select>
       </div>
       <div className="search_box">
@@ -29,7 +36,7 @@ const Navbar = () => {
         <input type="search" placeholder="Search" />
       </div>
       <ol>
-        <li><a href="/"><i className="fa fa-building" /></a></li>
+        <li><a href="/"><i className="fa fa-home" /></a></li>
       </ol>
       <label htmlFor="check" className="bar">
         <span className="fa fa-bars" id="bars"></span>

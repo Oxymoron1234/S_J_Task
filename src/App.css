@@ -6,22 +6,23 @@
 
 .main-body{
   display: flex;
-
+  background-color: #D6E5FA
 }
 .leftChild{
   height: 100vh;
   width: 18%;
-  background-color: red;
+  background-color: #D6E5FA;
 }
 .middleChild{
   height:100%;
   width: 62%;
-  background-color: gold;
+  background-color: #D6E5FA;
+  z-index: 99;
 }
 .rightChild{
-  height: 100%;
+  height: 100vh;
   width: 20%;
-  background-color: yellow;
+  background-color: #D6E5FA;
 }
 @media screen and (max-width:800px) {
   .leftChild{
