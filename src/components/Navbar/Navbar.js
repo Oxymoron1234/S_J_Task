@@ -2,7 +2,10 @@ import React from 'react';
 import "./Navbar.css"
 const Navbar = () => {
   const captureId = (e)=>{
-    console.log(e.target.value);
+    if(e.target.value === 0){
+    }else{
+      console.log(e.target.value);
+    }
   }
   return <>
     <input type="checkbox" id="check" />

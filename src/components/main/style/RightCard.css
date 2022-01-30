@@ -1,0 +1,32 @@
+.box{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+    border-radius: 1rem;
+
+}
+
+.module{
+    margin: 1rem;
+    color: #ff0000;
+}
+
+.off{
+    margin: 1rem;
+}
+.vrf{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-around;
+}
+.vrfObj{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: 0.2rem ;
+    
+}
+.vrfImg{
+    height: 2rem;
+    width: 2rem;
+}
